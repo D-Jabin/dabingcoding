@@ -1,0 +1,26 @@
+2026-07-18 13:56:28 [INFO] SpriteMaker: ==================================================
+2026-07-18 13:56:28 [INFO] SpriteMaker: SpriteMaker 启动
+2026-07-18 13:56:28 [INFO] SpriteMaker: AuthManager 初始化
+2026-07-18 13:56:40 [INFO] SpriteMaker: 开始登录流程
+2026-07-18 13:56:48 [INFO] SpriteMaker: 用户 admin 登录成功
+2026-07-18 13:57:04 [INFO] SpriteMaker: 导出操作权限验证: _export_gif
+2026-07-18 13:57:05 [INFO] SpriteMaker: 权限验证通过，执行导出: _export_gif
+2026-07-18 13:57:05 [INFO] SpriteMaker: 开始导出GIF: 输出目录=C:/Users/Administrator/Desktop/v/m\spritesheet
+2026-07-18 13:57:07 [INFO] SpriteMaker: GIF导出成功: C:/Users/Administrator/Desktop/v/m\spritesheet\spritegif.gif
+2026-07-18 13:57:19 [INFO] SpriteMaker: 导出操作权限验证: _export_gif
+2026-07-18 13:57:24 [INFO] SpriteMaker: 权限验证通过，执行导出: _export_gif
+2026-07-18 13:57:24 [INFO] SpriteMaker: 开始导出GIF: 输出目录=C:/Users/Administrator/Desktop/v/m\spritesheet
+2026-07-18 13:57:26 [INFO] SpriteMaker: GIF导出成功: C:/Users/Administrator/Desktop/v/m\spritesheet\spritegif.gif
+2026-07-18 13:57:36 [INFO] SpriteMaker: 导出操作权限验证: _export_spritesheet
+2026-07-18 13:57:38 [INFO] SpriteMaker: 权限验证通过，执行导出: _export_spritesheet
+2026-07-18 13:57:38 [INFO] SpriteMaker: 开始导出精灵图: 输出目录=C:/Users/Administrator/Desktop/v/m\spritesheet
+2026-07-18 13:57:39 [INFO] SpriteMaker: 精灵图导出成功: C:/Users/Administrator/Desktop/v/m\spritesheet\spritesheet.png
+2026-07-18 13:57:47 [INFO] SpriteMaker: 导出操作权限验证: _export_spritesheet
+2026-07-18 13:57:48 [INFO] SpriteMaker: 权限验证通过，执行导出: _export_spritesheet
+2026-07-18 13:57:48 [INFO] SpriteMaker: 开始导出精灵图: 输出目录=C:/Users/Administrator/Desktop/v/m\spritesheet
+2026-07-18 13:57:49 [INFO] SpriteMaker: 精灵图导出成功: C:/Users/Administrator/Desktop/v/m\spritesheet\spritesheet.png
+2026-07-18 13:59:19 [INFO] SpriteMaker: 导出操作权限验证: _export_all
+2026-07-18 13:59:21 [INFO] SpriteMaker: 权限验证通过，执行导出: _export_all
+2026-07-18 13:59:21 [INFO] SpriteMaker: 开始导出抠图结果: 输出目录=C:/Users/Administrator/Desktop/v/m
+2026-07-18 13:59:21 [INFO] SpriteMaker: 抠图导出完成: 共 23 帧
+2026-07-18 13:59:49 [INFO] SpriteMaker: SpriteMaker 正常退出，退出码: 0
