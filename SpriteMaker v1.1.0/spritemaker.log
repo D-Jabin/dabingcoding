@@ -1,0 +1,40 @@
+2026-07-25 19:33:25 [INFO] logger.info:44 - ==================================================
+2026-07-25 19:33:25 [INFO] logger.info:44 - SpriteMaker 启动
+2026-07-25 19:33:26 [INFO] logger.info:44 - AuthManager 初始化
+2026-07-25 19:34:07 [INFO] logger.info:44 - [DEBUG MATTING] _update_preview called, frame_paths=129, current_frame=0
+2026-07-25 19:34:07 [INFO] logger.info:44 - [DEBUG MATTING] _update_preview - reading image: D:/workspace/py/trae_spritemaker/frames\video_000.png
+2026-07-25 19:34:07 [INFO] logger.info:44 - [DEBUG MATTING] _update_preview - image loaded, shape=720x720
+2026-07-25 19:34:07 [INFO] logger.info:44 - [DEBUG MATTING] _update_preview - worker started
+2026-07-25 19:34:07 [INFO] logger.info:44 - [DEBUG MATTING] task started - processing image
+2026-07-25 19:34:07 [INFO] logger.info:44 - [DEBUG MATTING] task completed - result=True
+2026-07-25 19:34:07 [INFO] logger.info:44 - [DEBUG MATTING] _on_preview_result called, result=True
+2026-07-25 19:34:07 [INFO] logger.info:44 - [DEBUG MATTING] _on_preview_result - result shape=720x720
+2026-07-25 19:34:07 [INFO] logger.info:44 - [DEBUG MATTING] _on_preview_result - pixmap created
+2026-07-25 19:34:07 [INFO] logger.info:44 - [DEBUG MATTING] _on_preview_result - pixmap displayed
+2026-07-25 19:34:09 [INFO] logger.info:44 - [DEBUG MATTING] _on_preview_result - mask set, preserve_semitransparent=False
+2026-07-25 19:34:09 [INFO] logger.info:44 - [DEBUG MATTING] _on_preview_result - global operation pushed
+2026-07-25 19:34:15 [INFO] logger.info:44 - [DEBUG MATTING] _on_matting_apply called, frame_count=129, current_frame=0
+2026-07-25 19:34:16 [INFO] logger.info:44 - [DEBUG MATTING] _update_preview called, frame_paths=129, current_frame=0
+2026-07-25 19:34:16 [INFO] logger.info:44 - [DEBUG MATTING] _update_preview - reading image: D:/workspace/py/trae_spritemaker/frames\video_000.png
+2026-07-25 19:34:16 [INFO] logger.info:44 - [DEBUG MATTING] _update_preview - image loaded, shape=720x720
+2026-07-25 19:34:16 [INFO] logger.info:44 - [DEBUG MATTING] _update_preview - worker started
+2026-07-25 19:34:16 [INFO] logger.info:44 - [DEBUG MATTING] task started - processing image
+2026-07-25 19:34:16 [INFO] logger.info:44 - [DEBUG MATTING] task completed - result=True
+2026-07-25 19:34:16 [INFO] logger.info:44 - [DEBUG MATTING] _on_preview_result called, result=True
+2026-07-25 19:34:16 [INFO] logger.info:44 - [DEBUG MATTING] _on_preview_result - result shape=720x720
+2026-07-25 19:34:16 [INFO] logger.info:44 - [DEBUG MATTING] _on_preview_result - pixmap created
+2026-07-25 19:34:16 [INFO] logger.info:44 - [DEBUG MATTING] _on_preview_result - pixmap displayed
+2026-07-25 19:34:18 [INFO] logger.info:44 - [DEBUG MATTING] _on_preview_result - mask set, preserve_semitransparent=False
+2026-07-25 19:34:18 [INFO] logger.info:44 - [DEBUG MATTING] _on_preview_result - global operation pushed
+2026-07-25 19:34:29 [INFO] logger.info:44 - 开始登录流程
+2026-07-25 19:34:38 [INFO] logger.info:44 - 用户 admin 登录成功
+2026-07-25 19:34:48 [INFO] logger.info:44 - 导出操作权限验证: _export_all
+2026-07-25 19:34:53 [INFO] logger.info:44 - 权限验证通过，执行导出: _export_all
+2026-07-25 19:34:53 [INFO] logger.log_operation:64 - [OPERATION] 导出抠图开始 - output_dir=D:/workspace/py/trae_spritemaker/matted, total_frames=129, deleted_frames=0
+2026-07-25 19:34:55 [INFO] logger.log_operation:64 - [OPERATION] 导出抠图完成 - exported_count=129
+2026-07-25 19:35:05 [INFO] logger.info:44 - 导出操作权限验证: _export_spritesheet
+2026-07-25 19:35:08 [INFO] logger.info:44 - 权限验证通过，执行导出: _export_spritesheet
+2026-07-25 19:35:08 [INFO] logger.log_operation:64 - [OPERATION] 导出精灵图开始 - output_dir=D:/workspace/py/trae_spritemaker/matted\spritesheet, frames_count=129
+2026-07-25 19:35:08 [INFO] logger.info:44 - 导出参数: mode=grid, cols=5, padding_x=2, padding_y=2, border=0, scale_size=None
+2026-07-25 19:35:10 [INFO] logger.log_operation:64 - [OPERATION] 导出精灵图成功 - output_file=D:/workspace/py/trae_spritemaker/matted\spritesheet\spritesheet.png
+2026-07-25 19:35:27 [INFO] logger.info:44 - SpriteMaker 正常退出，退出码: 0
