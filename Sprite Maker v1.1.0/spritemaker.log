@@ -1,6 +1,0 @@
-2026-07-25 20:16:09 [INFO] logger.info:44 - ==================================================
-2026-07-25 20:16:09 [INFO] logger.info:44 - SpriteMaker 启动
-2026-07-25 20:16:09 [INFO] logger.info:44 - AuthManager 初始化
-2026-07-25 20:16:10 [INFO] logger.info:44 - 开始登录流程
-2026-07-25 20:16:18 [INFO] logger.info:44 - 用户 admin 登录成功
-2026-07-25 20:20:43 [INFO] logger.info:44 - SpriteMaker 正常退出，退出码: 0
