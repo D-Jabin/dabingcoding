@@ -1,0 +1,425 @@
+2026-08-02 11:26:41 [INFO] logger.info:65 - ==================================================
+2026-08-02 11:26:41 [INFO] logger.info:65 - SpriteMaker 启动
+2026-08-02 11:26:41 [INFO] logger.info:65 - AuthManager 初始化
+2026-08-02 11:26:44 [INFO] logger.info:65 - 开始登录流程
+2026-08-02 11:26:51 [INFO] logger.info:65 - 用户 admin 登录成功, Token长度=127
+2026-08-02 11:26:51 [INFO] logger.info:65 - 版本检查: 第1次重试
+2026-08-02 11:26:51 [INFO] logger.info:65 - 版本检查: 发起请求, URL=/announcement, Token长度=127
+2026-08-02 11:26:51 [INFO] logger.info:65 - 版本检查: 发起请求, URL=/announcement, Token长度=127
+2026-08-02 11:26:53 [INFO] logger.info:65 - 版本检查: 成功, 状态码=200, 服务器版本=1.1.0
+2026-08-02 11:26:53 [INFO] logger.info:65 - 版本检查结果处理: error_type=, status_code=0, success=False, version_info_keys=['version', 'message', 'force_update']
+2026-08-02 11:26:53 [INFO] logger.info:65 - 版本检查结果处理: 标记为已完成，开始处理结果
+2026-08-02 11:26:57 [INFO] logger.info:65 - 版本检查: 成功, 状态码=200, 服务器版本=1.1.0
+2026-08-02 11:26:57 [INFO] logger.info:65 - 权限验证: 第1次重试
+2026-08-02 11:26:57 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:26:57 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:26:58 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:26:58 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:26:58 [INFO] logger.info:65 - 权限验证结果处理: 验证成功，标记为已完成
+2026-08-02 11:26:59 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:26:59 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:26:59 [INFO] logger.info:65 - 权限验证结果处理: allow_code匹配成功，授权通过
+2026-08-02 11:27:28 [INFO] logger.info:65 - 导出操作权限验证: _extract_frames
+2026-08-02 11:27:28 [INFO] logger.info:65 - 导出权限验证: 第1次重试
+2026-08-02 11:27:28 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:27:28 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:27:30 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:27:30 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:27:30 [INFO] logger.info:65 - 导出权限验证结果处理: 验证成功，标记为已完成
+2026-08-02 11:27:33 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:27:33 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:27:33 [INFO] logger.info:65 - 导出权限验证结果处理: allow_code匹配成功，授权通过
+2026-08-02 11:27:33 [INFO] logger.info:65 - 权限验证通过，执行导出: _extract_frames
+2026-08-02 11:27:33 [INFO] logger.info:65 - 提取帧开始: video=C:/Users/Administrator/Desktop/dabing/wolf.mp4, output_dir=C:/Users/Administrator/Desktop/dabing/1
+2026-08-02 11:27:33 [INFO] logger.info:65 - 提取参数: fps=5, start_time=0.00s, end_time=10.04s, format=jpg, dedup=False, jump=False
+2026-08-02 11:27:33 [INFO] logger.info:65 - 提取帧完成: frames_count=50
+2026-08-02 11:27:41 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview called, frame_paths=50, current_frame=0
+2026-08-02 11:27:41 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - reading image: C:/Users/Administrator/Desktop/dabing/1\wolf_00.jpg
+2026-08-02 11:27:41 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - image loaded, shape=720x720
+2026-08-02 11:27:41 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - worker started
+2026-08-02 11:27:41 [INFO] logger.info:65 - [DEBUG MATTING] task started - processing image
+2026-08-02 11:27:41 [INFO] logger.info:65 - [DEBUG MATTING] task completed - result=True
+2026-08-02 11:27:41 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result called, result=True
+2026-08-02 11:27:41 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - result shape=720x720
+2026-08-02 11:27:41 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - pixmap created
+2026-08-02 11:27:41 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - pixmap displayed
+2026-08-02 11:27:41 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - mask set, preserve_semitransparent=False
+2026-08-02 11:27:41 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - global operation pushed
+2026-08-02 11:27:47 [INFO] logger.info:65 - [DEBUG MATTING] _on_matting_apply called, frame_count=50, current_frame=0
+2026-08-02 11:27:47 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview called, frame_paths=50, current_frame=0
+2026-08-02 11:27:47 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - reading image: C:/Users/Administrator/Desktop/dabing/1\wolf_00.jpg
+2026-08-02 11:27:47 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - image loaded, shape=720x720
+2026-08-02 11:27:47 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - worker started
+2026-08-02 11:27:47 [INFO] logger.info:65 - [DEBUG MATTING] task started - processing image
+2026-08-02 11:27:47 [INFO] logger.info:65 - [DEBUG MATTING] task completed - result=True
+2026-08-02 11:27:47 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result called, result=True
+2026-08-02 11:27:47 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - result shape=720x720
+2026-08-02 11:27:47 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - pixmap created
+2026-08-02 11:27:47 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - pixmap displayed
+2026-08-02 11:27:48 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - mask set, preserve_semitransparent=False
+2026-08-02 11:27:48 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - global operation pushed
+2026-08-02 11:28:24 [INFO] logger.info:65 - 导出操作权限验证: _export_spritesheet
+2026-08-02 11:28:24 [INFO] logger.info:65 - 导出权限验证: 第1次重试
+2026-08-02 11:28:24 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:28:24 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:28:28 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:28:28 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:28:28 [INFO] logger.info:65 - 导出权限验证结果处理: 验证成功，标记为已完成
+2026-08-02 11:28:28 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:28:28 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:28:28 [INFO] logger.info:65 - 导出权限验证结果处理: allow_code匹配成功，授权通过
+2026-08-02 11:28:28 [INFO] logger.info:65 - 权限验证通过，执行导出: _export_spritesheet
+2026-08-02 11:28:39 [INFO] logger.info:65 - 导出操作权限验证: _export_spritesheet
+2026-08-02 11:28:39 [INFO] logger.info:65 - 导出权限验证: 第1次重试
+2026-08-02 11:28:39 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:28:39 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:28:41 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:28:41 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:28:41 [INFO] logger.info:65 - 导出权限验证结果处理: 验证成功，标记为已完成
+2026-08-02 11:28:42 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:28:42 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:28:42 [INFO] logger.info:65 - 导出权限验证结果处理: allow_code匹配成功，授权通过
+2026-08-02 11:28:42 [INFO] logger.info:65 - 权限验证通过，执行导出: _export_spritesheet
+2026-08-02 11:28:53 [INFO] logger.info:65 - 导出操作权限验证: _export_spritesheet
+2026-08-02 11:28:53 [INFO] logger.info:65 - 导出权限验证: 第1次重试
+2026-08-02 11:28:53 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:28:53 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:28:55 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:28:55 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:28:55 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:28:55 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:28:55 [INFO] logger.info:65 - 导出权限验证结果处理: 验证成功，标记为已完成
+2026-08-02 11:28:55 [INFO] logger.info:65 - 导出权限验证结果处理: allow_code匹配成功，授权通过
+2026-08-02 11:28:55 [INFO] logger.info:65 - 权限验证通过，执行导出: _export_spritesheet
+2026-08-02 11:28:55 [INFO] logger.info:65 - 导出权限验证结果处理: 已完成，忽略此次结果
+2026-08-02 11:28:57 [INFO] logger.info:65 - SpriteMaker 正常退出，退出码: 0
+2026-08-02 11:29:18 [INFO] logger.info:65 - ==================================================
+2026-08-02 11:29:18 [INFO] logger.info:65 - SpriteMaker 启动
+2026-08-02 11:29:18 [INFO] logger.info:65 - AuthManager 初始化
+2026-08-02 11:29:24 [INFO] logger.info:65 - 开始登录流程
+2026-08-02 11:29:34 [INFO] logger.info:65 - 用户 admin 登录成功, Token长度=127
+2026-08-02 11:29:34 [INFO] logger.info:65 - 版本检查: 第1次重试
+2026-08-02 11:29:34 [INFO] logger.info:65 - 版本检查: 发起请求, URL=/announcement, Token长度=127
+2026-08-02 11:29:34 [INFO] logger.info:65 - 版本检查: 发起请求, URL=/announcement, Token长度=127
+2026-08-02 11:29:38 [INFO] logger.info:65 - 版本检查: 成功, 状态码=200, 服务器版本=1.1.0
+2026-08-02 11:29:38 [INFO] logger.info:65 - 版本检查结果处理: error_type=, status_code=0, success=False, version_info_keys=['version', 'message', 'force_update']
+2026-08-02 11:29:38 [INFO] logger.info:65 - 版本检查结果处理: 标记为已完成，开始处理结果
+2026-08-02 11:29:38 [INFO] logger.info:65 - 版本检查: 成功, 状态码=200, 服务器版本=1.1.0
+2026-08-02 11:29:38 [INFO] logger.info:65 - 权限验证: 第1次重试
+2026-08-02 11:29:38 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:29:38 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:29:40 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:29:40 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:29:40 [INFO] logger.info:65 - 权限验证结果处理: 验证成功，标记为已完成
+2026-08-02 11:29:40 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:29:40 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:29:40 [INFO] logger.info:65 - 权限验证结果处理: allow_code匹配成功，授权通过
+2026-08-02 11:29:48 [INFO] logger.info:65 - 导出操作权限验证: _export_spritesheet
+2026-08-02 11:29:48 [INFO] logger.info:65 - 导出权限验证: 第1次重试
+2026-08-02 11:29:48 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:29:48 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:29:49 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:29:49 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:29:49 [INFO] logger.info:65 - 导出权限验证结果处理: 验证成功，标记为已完成
+2026-08-02 11:29:51 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:29:51 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:29:51 [INFO] logger.info:65 - 导出权限验证结果处理: allow_code匹配成功，授权通过
+2026-08-02 11:29:51 [INFO] logger.info:65 - 权限验证通过，执行导出: _export_spritesheet
+2026-08-02 11:30:16 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview called, frame_paths=50, current_frame=0
+2026-08-02 11:30:16 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - reading image: C:/Users/Administrator/Desktop/dabing/1\wolf_00.jpg
+2026-08-02 11:30:16 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - image loaded, shape=720x720
+2026-08-02 11:30:16 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - worker started
+2026-08-02 11:30:16 [INFO] logger.info:65 - [DEBUG MATTING] task started - processing image
+2026-08-02 11:30:16 [INFO] logger.info:65 - [DEBUG MATTING] task completed - result=True
+2026-08-02 11:30:16 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result called, result=True
+2026-08-02 11:30:16 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - result shape=720x720
+2026-08-02 11:30:16 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - pixmap created
+2026-08-02 11:30:16 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - pixmap displayed
+2026-08-02 11:30:16 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - mask set, preserve_semitransparent=False
+2026-08-02 11:30:16 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - global operation pushed
+2026-08-02 11:30:22 [INFO] logger.info:65 - [DEBUG MATTING] _on_matting_apply called, frame_count=50, current_frame=0
+2026-08-02 11:30:22 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview called, frame_paths=50, current_frame=0
+2026-08-02 11:30:22 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - reading image: C:/Users/Administrator/Desktop/dabing/1\wolf_00.jpg
+2026-08-02 11:30:22 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - image loaded, shape=720x720
+2026-08-02 11:30:22 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - worker started
+2026-08-02 11:30:22 [INFO] logger.info:65 - [DEBUG MATTING] task started - processing image
+2026-08-02 11:30:22 [INFO] logger.info:65 - [DEBUG MATTING] task completed - result=True
+2026-08-02 11:30:22 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result called, result=True
+2026-08-02 11:30:22 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - result shape=720x720
+2026-08-02 11:30:22 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - pixmap created
+2026-08-02 11:30:22 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - pixmap displayed
+2026-08-02 11:30:23 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - mask set, preserve_semitransparent=False
+2026-08-02 11:30:23 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - global operation pushed
+2026-08-02 11:30:34 [INFO] logger.info:65 - [DEBUG MATTING] _on_matting_apply called, frame_count=50, current_frame=0
+2026-08-02 11:30:35 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview called, frame_paths=50, current_frame=0
+2026-08-02 11:30:35 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - reading image: C:/Users/Administrator/Desktop/dabing/1\wolf_00.jpg
+2026-08-02 11:30:35 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - image loaded, shape=720x720
+2026-08-02 11:30:35 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - worker started
+2026-08-02 11:30:35 [INFO] logger.info:65 - [DEBUG MATTING] task started - processing image
+2026-08-02 11:30:35 [INFO] logger.info:65 - [DEBUG MATTING] task completed - result=True
+2026-08-02 11:30:35 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result called, result=True
+2026-08-02 11:30:35 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - result shape=720x720
+2026-08-02 11:30:35 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - pixmap created
+2026-08-02 11:30:35 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - pixmap displayed
+2026-08-02 11:30:35 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - mask set, preserve_semitransparent=False
+2026-08-02 11:30:35 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - global operation pushed
+2026-08-02 11:30:52 [INFO] logger.info:65 - 导出操作权限验证: _export_all
+2026-08-02 11:30:52 [INFO] logger.info:65 - 导出权限验证: 第1次重试
+2026-08-02 11:30:52 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:30:52 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:30:56 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:30:56 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:30:56 [INFO] logger.info:65 - 导出权限验证结果处理: 验证成功，标记为已完成
+2026-08-02 11:30:57 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:30:57 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:30:57 [INFO] logger.info:65 - 导出权限验证结果处理: allow_code匹配成功，授权通过
+2026-08-02 11:30:57 [INFO] logger.info:65 - 权限验证通过，执行导出: _export_all
+2026-08-02 11:30:57 [INFO] logger.info:65 - 导出抠图开始: output_dir=C:/Users/Administrator/Desktop/dabing/2, total_frames=50, deleted_frames=0
+2026-08-02 11:30:57 [INFO] logger.info:65 - 导出抠图完成: exported_count=50
+2026-08-02 11:31:17 [INFO] logger.info:65 - 导出操作权限验证: _export_all
+2026-08-02 11:31:17 [INFO] logger.info:65 - 导出权限验证: 第1次重试
+2026-08-02 11:31:17 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:31:17 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:31:18 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:31:18 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:31:18 [INFO] logger.info:65 - 导出权限验证结果处理: 验证成功，标记为已完成
+2026-08-02 11:31:19 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:31:19 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:31:19 [INFO] logger.info:65 - 导出权限验证结果处理: allow_code匹配成功，授权通过
+2026-08-02 11:31:19 [INFO] logger.info:65 - 权限验证通过，执行导出: _export_all
+2026-08-02 11:31:19 [INFO] logger.info:65 - 导出抠图开始: output_dir=C:/Users/Administrator/Desktop/dabing/2, total_frames=50, deleted_frames=0
+2026-08-02 11:31:19 [INFO] logger.info:65 - 导出抠图完成: exported_count=50
+2026-08-02 11:31:41 [INFO] logger.info:65 - 导出操作权限验证: _export_all
+2026-08-02 11:31:41 [INFO] logger.info:65 - 导出权限验证: 第1次重试
+2026-08-02 11:31:41 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:31:41 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:31:46 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:31:46 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:31:46 [INFO] logger.info:65 - 导出权限验证结果处理: 验证成功，标记为已完成
+2026-08-02 11:31:46 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:31:46 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:31:46 [INFO] logger.info:65 - 导出权限验证结果处理: allow_code匹配成功，授权通过
+2026-08-02 11:31:46 [INFO] logger.info:65 - 权限验证通过，执行导出: _export_all
+2026-08-02 11:31:46 [INFO] logger.info:65 - 导出抠图开始: output_dir=C:/Users/Administrator/Desktop/dabing/2, total_frames=50, deleted_frames=0
+2026-08-02 11:31:46 [INFO] logger.info:65 - 导出抠图完成: exported_count=50
+2026-08-02 11:31:54 [INFO] logger.info:65 - 导出操作权限验证: _export_all
+2026-08-02 11:31:54 [INFO] logger.info:65 - 导出权限验证: 第1次重试
+2026-08-02 11:31:54 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:31:54 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:31:56 [INFO] logger.info:65 - 导出权限验证: 第2次重试
+2026-08-02 11:31:56 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:31:57 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:31:57 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:31:57 [INFO] logger.info:65 - 导出权限验证结果处理: 验证成功，标记为已完成
+2026-08-02 11:31:58 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:31:58 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:32:04 [INFO] logger.info:65 - 权限验证: 连接失败 - Timeout: Failed to perform, curl: (28) Operation timed out after 10002 milliseconds with 80 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-08-02 11:32:04 [INFO] logger.info:65 - 导出权限验证结果处理: allow_code匹配成功，授权通过
+2026-08-02 11:32:04 [INFO] logger.info:65 - 权限验证通过，执行导出: _export_all
+2026-08-02 11:32:04 [INFO] logger.info:65 - 导出抠图开始: output_dir=C:/Users/Administrator/Desktop/dabing/2, total_frames=50, deleted_frames=0
+2026-08-02 11:32:05 [INFO] logger.info:65 - 导出抠图完成: exported_count=50
+2026-08-02 11:32:05 [INFO] logger.info:65 - 导出权限验证结果处理: 已完成，忽略此次结果
+2026-08-02 11:32:11 [INFO] logger.info:65 - SpriteMaker 正常退出，退出码: 0
+2026-08-02 11:41:54 [INFO] logger.info:65 - ==================================================
+2026-08-02 11:41:54 [INFO] logger.info:65 - SpriteMaker 启动
+2026-08-02 11:41:54 [INFO] logger.info:65 - AuthManager 初始化
+2026-08-02 11:42:15 [INFO] logger.info:65 - SpriteMaker 正常退出，退出码: 0
+2026-08-02 11:42:23 [INFO] logger.info:65 - ==================================================
+2026-08-02 11:42:23 [INFO] logger.info:65 - SpriteMaker 启动
+2026-08-02 11:42:23 [INFO] logger.info:65 - AuthManager 初始化
+2026-08-02 11:42:25 [INFO] logger.info:65 - 开始登录流程
+2026-08-02 11:42:35 [INFO] logger.info:65 - 用户 admin 登录成功, Token长度=127
+2026-08-02 11:42:35 [INFO] logger.info:65 - 版本检查: 第1次重试
+2026-08-02 11:42:35 [INFO] logger.info:65 - 版本检查: 发起请求, URL=/announcement, Token长度=127
+2026-08-02 11:42:35 [INFO] logger.info:65 - 版本检查: 发起请求, URL=/announcement, Token长度=127
+2026-08-02 11:42:44 [INFO] logger.info:65 - 版本检查: 成功, 状态码=200, 服务器版本=1.1.0
+2026-08-02 11:42:44 [INFO] logger.info:65 - 版本检查结果处理: error_type=, status_code=0, success=False, version_info_keys=['version', 'message', 'force_update']
+2026-08-02 11:42:44 [INFO] logger.info:65 - 版本检查结果处理: 标记为已完成，开始处理结果
+2026-08-02 11:42:45 [INFO] logger.info:65 - 版本检查: 成功, 状态码=200, 服务器版本=1.1.0
+2026-08-02 11:42:45 [INFO] logger.info:65 - 权限验证: 第1次重试
+2026-08-02 11:42:45 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:42:45 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:42:46 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:42:46 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:42:46 [INFO] logger.info:65 - 权限验证结果处理: 验证成功，标记为已完成
+2026-08-02 11:42:49 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:42:49 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:42:49 [INFO] logger.info:65 - 权限验证结果处理: allow_code匹配成功，授权通过
+2026-08-02 11:43:01 [INFO] logger.info:65 - 导出操作权限验证: _extract_frames
+2026-08-02 11:43:01 [INFO] logger.info:65 - 导出权限验证: 第1次重试
+2026-08-02 11:43:01 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:43:01 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:43:03 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:43:03 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:43:03 [INFO] logger.info:65 - 导出权限验证结果处理: 验证成功，标记为已完成
+2026-08-02 11:43:03 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:43:03 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:43:03 [INFO] logger.info:65 - 导出权限验证结果处理: allow_code匹配成功，授权通过
+2026-08-02 11:43:03 [INFO] logger.info:65 - 权限验证通过，执行导出: _extract_frames
+2026-08-02 11:43:03 [INFO] logger.info:65 - 提取帧开始: video=C:/Users/Administrator/Desktop/dabing/wolf.mp4, output_dir=C:/Users/Administrator/Desktop/dabing/1
+2026-08-02 11:43:03 [INFO] logger.info:65 - 提取参数: fps=5, start_time=0.00s, end_time=10.04s, format=png, dedup=False, jump=False
+2026-08-02 11:43:05 [INFO] logger.info:65 - 提取帧完成: frames_count=50
+2026-08-02 11:43:13 [INFO] logger.info:65 - 导出操作权限验证: _extract_frames
+2026-08-02 11:43:13 [INFO] logger.info:65 - 导出权限验证: 第1次重试
+2026-08-02 11:43:13 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:43:13 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:43:15 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:43:15 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:43:15 [INFO] logger.info:65 - 导出权限验证结果处理: 验证成功，标记为已完成
+2026-08-02 11:43:15 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:43:15 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:43:15 [INFO] logger.info:65 - 导出权限验证结果处理: allow_code匹配成功，授权通过
+2026-08-02 11:43:15 [INFO] logger.info:65 - 权限验证通过，执行导出: _extract_frames
+2026-08-02 11:43:16 [INFO] logger.info:65 - 提取帧开始: video=C:/Users/Administrator/Desktop/dabing/wolf.mp4, output_dir=C:/Users/Administrator/Desktop/dabing/1
+2026-08-02 11:43:16 [INFO] logger.info:65 - 提取参数: fps=5, start_time=0.00s, end_time=10.04s, format=png, dedup=False, jump=False
+2026-08-02 11:43:18 [INFO] logger.info:65 - 提取帧完成: frames_count=50
+2026-08-02 11:43:25 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview called, frame_paths=50, current_frame=0
+2026-08-02 11:43:25 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - reading image: C:/Users/Administrator/Desktop/dabing/1\wolf_00.png
+2026-08-02 11:43:25 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - image loaded, shape=498x720
+2026-08-02 11:43:25 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - worker started
+2026-08-02 11:43:25 [INFO] logger.info:65 - [DEBUG MATTING] task started - processing image
+2026-08-02 11:43:25 [INFO] logger.info:65 - [DEBUG MATTING] task completed - result=True
+2026-08-02 11:43:25 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result called, result=True
+2026-08-02 11:43:25 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - result shape=498x720
+2026-08-02 11:43:25 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - pixmap created
+2026-08-02 11:43:25 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - pixmap displayed
+2026-08-02 11:43:25 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - mask set, preserve_semitransparent=False
+2026-08-02 11:43:25 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - global operation pushed
+2026-08-02 11:43:32 [INFO] logger.info:65 - [DEBUG MATTING] _on_matting_apply called, frame_count=50, current_frame=0
+2026-08-02 11:43:33 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview called, frame_paths=50, current_frame=0
+2026-08-02 11:43:33 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - reading image: C:/Users/Administrator/Desktop/dabing/1\wolf_00.png
+2026-08-02 11:43:33 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - image loaded, shape=498x720
+2026-08-02 11:43:33 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - worker started
+2026-08-02 11:43:33 [INFO] logger.info:65 - [DEBUG MATTING] task started - processing image
+2026-08-02 11:43:33 [INFO] logger.info:65 - [DEBUG MATTING] task completed - result=True
+2026-08-02 11:43:33 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result called, result=True
+2026-08-02 11:43:33 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - result shape=498x720
+2026-08-02 11:43:33 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - pixmap created
+2026-08-02 11:43:33 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - pixmap displayed
+2026-08-02 11:43:33 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - mask set, preserve_semitransparent=False
+2026-08-02 11:43:33 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - global operation pushed
+2026-08-02 11:43:41 [INFO] logger.info:65 - [DEBUG MATTING] _on_matting_apply called, frame_count=50, current_frame=0
+2026-08-02 11:43:42 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview called, frame_paths=50, current_frame=0
+2026-08-02 11:43:42 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - reading image: C:/Users/Administrator/Desktop/dabing/1\wolf_00.png
+2026-08-02 11:43:42 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - image loaded, shape=498x720
+2026-08-02 11:43:42 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - worker started
+2026-08-02 11:43:42 [INFO] logger.info:65 - [DEBUG MATTING] task started - processing image
+2026-08-02 11:43:42 [INFO] logger.info:65 - [DEBUG MATTING] task completed - result=True
+2026-08-02 11:43:42 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result called, result=True
+2026-08-02 11:43:42 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - result shape=498x720
+2026-08-02 11:43:42 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - pixmap created
+2026-08-02 11:43:42 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - pixmap displayed
+2026-08-02 11:43:42 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - mask set, preserve_semitransparent=True
+2026-08-02 11:43:42 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - global operation pushed
+2026-08-02 11:43:45 [INFO] logger.info:65 - [DEBUG MATTING] _on_matting_apply called, frame_count=50, current_frame=0
+2026-08-02 11:43:46 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview called, frame_paths=50, current_frame=0
+2026-08-02 11:43:46 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - reading image: C:/Users/Administrator/Desktop/dabing/1\wolf_00.png
+2026-08-02 11:43:46 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - image loaded, shape=498x720
+2026-08-02 11:43:46 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - worker started
+2026-08-02 11:43:46 [INFO] logger.info:65 - [DEBUG MATTING] task started - processing image
+2026-08-02 11:43:46 [INFO] logger.info:65 - [DEBUG MATTING] task completed - result=True
+2026-08-02 11:43:46 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result called, result=True
+2026-08-02 11:43:46 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - result shape=498x720
+2026-08-02 11:43:46 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - pixmap created
+2026-08-02 11:43:46 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - pixmap displayed
+2026-08-02 11:43:46 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - mask set, preserve_semitransparent=True
+2026-08-02 11:43:46 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - global operation pushed
+2026-08-02 11:43:47 [INFO] logger.info:65 - [DEBUG MATTING] _on_matting_apply called, frame_count=50, current_frame=0
+2026-08-02 11:43:47 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview called, frame_paths=50, current_frame=0
+2026-08-02 11:43:47 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - reading image: C:/Users/Administrator/Desktop/dabing/1\wolf_00.png
+2026-08-02 11:43:47 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - image loaded, shape=498x720
+2026-08-02 11:43:47 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - worker started
+2026-08-02 11:43:47 [INFO] logger.info:65 - [DEBUG MATTING] task started - processing image
+2026-08-02 11:43:47 [INFO] logger.info:65 - [DEBUG MATTING] task completed - result=True
+2026-08-02 11:43:47 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result called, result=True
+2026-08-02 11:43:47 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - result shape=498x720
+2026-08-02 11:43:47 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - pixmap created
+2026-08-02 11:43:47 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - pixmap displayed
+2026-08-02 11:43:47 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - mask set, preserve_semitransparent=True
+2026-08-02 11:43:47 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - global operation pushed
+2026-08-02 11:43:50 [INFO] logger.info:65 - [DEBUG MATTING] _on_matting_apply called, frame_count=50, current_frame=0
+2026-08-02 11:43:50 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview called, frame_paths=50, current_frame=0
+2026-08-02 11:43:50 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - reading image: C:/Users/Administrator/Desktop/dabing/1\wolf_00.png
+2026-08-02 11:43:50 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - image loaded, shape=498x720
+2026-08-02 11:43:50 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - worker started
+2026-08-02 11:43:50 [INFO] logger.info:65 - [DEBUG MATTING] task started - processing image
+2026-08-02 11:43:50 [INFO] logger.info:65 - [DEBUG MATTING] task completed - result=True
+2026-08-02 11:43:50 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result called, result=True
+2026-08-02 11:43:50 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - result shape=498x720
+2026-08-02 11:43:50 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - pixmap created
+2026-08-02 11:43:50 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - pixmap displayed
+2026-08-02 11:43:50 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - mask set, preserve_semitransparent=True
+2026-08-02 11:43:50 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - global operation pushed
+2026-08-02 11:43:56 [INFO] logger.info:65 - [DEBUG MATTING] _on_matting_apply called, frame_count=50, current_frame=0
+2026-08-02 11:43:56 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview called, frame_paths=50, current_frame=0
+2026-08-02 11:43:56 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - reading image: C:/Users/Administrator/Desktop/dabing/1\wolf_00.png
+2026-08-02 11:43:56 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - image loaded, shape=498x720
+2026-08-02 11:43:56 [INFO] logger.info:65 - [DEBUG MATTING] _update_preview - worker started
+2026-08-02 11:43:56 [INFO] logger.info:65 - [DEBUG MATTING] task started - processing image
+2026-08-02 11:43:56 [INFO] logger.info:65 - [DEBUG MATTING] task completed - result=True
+2026-08-02 11:43:56 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result called, result=True
+2026-08-02 11:43:56 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - result shape=498x720
+2026-08-02 11:43:56 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - pixmap created
+2026-08-02 11:43:56 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - pixmap displayed
+2026-08-02 11:43:56 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - mask set, preserve_semitransparent=True
+2026-08-02 11:43:56 [INFO] logger.info:65 - [DEBUG MATTING] _on_preview_result - global operation pushed
+2026-08-02 11:44:05 [INFO] logger.info:65 - 导出操作权限验证: _export_all
+2026-08-02 11:44:05 [INFO] logger.info:65 - 导出权限验证: 第1次重试
+2026-08-02 11:44:05 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:44:05 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:44:06 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:44:06 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:44:06 [INFO] logger.info:65 - 导出权限验证结果处理: 验证成功，标记为已完成
+2026-08-02 11:44:07 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:44:07 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:44:07 [INFO] logger.info:65 - 导出权限验证结果处理: allow_code匹配成功，授权通过
+2026-08-02 11:44:07 [INFO] logger.info:65 - 权限验证通过，执行导出: _export_all
+2026-08-02 11:44:07 [INFO] logger.info:65 - 导出抠图开始: output_dir=C:/Users/Administrator/Desktop/dabing/2, total_frames=50, deleted_frames=0
+2026-08-02 11:44:08 [INFO] logger.info:65 - 导出抠图完成: exported_count=50
+2026-08-02 11:44:33 [INFO] logger.info:65 - 导出操作权限验证: _export_gif
+2026-08-02 11:44:33 [INFO] logger.info:65 - 导出权限验证: 第1次重试
+2026-08-02 11:44:33 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:44:33 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:44:34 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:44:34 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:44:34 [INFO] logger.info:65 - 导出权限验证结果处理: 验证成功，标记为已完成
+2026-08-02 11:44:37 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:44:37 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:44:37 [INFO] logger.info:65 - 导出权限验证结果处理: allow_code匹配成功，授权通过
+2026-08-02 11:44:37 [INFO] logger.info:65 - 权限验证通过，执行导出: _export_gif
+2026-08-02 11:44:37 [INFO] logger.info:65 - 导出GIF开始: output_dir=C:/Users/Administrator/Desktop/dabing/2\spritesheet, frames_count=50
+2026-08-02 11:44:37 [INFO] logger.info:65 - 导出参数: fps=10, colors=256, mode=grid, cols=5, scale_size=None
+2026-08-02 11:44:42 [INFO] logger.info:65 - 导出GIF成功: output_file=C:/Users/Administrator/Desktop/dabing/2\spritesheet\spritegif.gif
+2026-08-02 11:44:43 [INFO] logger.info:65 - 导出操作权限验证: _export_spritesheet
+2026-08-02 11:44:43 [INFO] logger.info:65 - 导出权限验证: 第1次重试
+2026-08-02 11:44:43 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:44:43 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:44:45 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:44:45 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:44:45 [INFO] logger.info:65 - 导出权限验证结果处理: 验证成功，标记为已完成
+2026-08-02 11:44:46 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:44:46 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:44:46 [INFO] logger.info:65 - 导出权限验证结果处理: allow_code匹配成功，授权通过
+2026-08-02 11:44:46 [INFO] logger.info:65 - 权限验证通过，执行导出: _export_spritesheet
+2026-08-02 11:44:46 [INFO] logger.info:65 - 导出精灵图开始: output_dir=C:/Users/Administrator/Desktop/dabing/2\spritesheet, frames_count=50
+2026-08-02 11:44:46 [INFO] logger.info:65 - 导出参数: mode=grid, cols=5, padding_x=2, padding_y=2, border=0, scale_size=None
+2026-08-02 11:44:47 [INFO] logger.info:65 - 导出精灵图成功: output_file=C:/Users/Administrator/Desktop/dabing/2\spritesheet\spritesheet.png
+2026-08-02 11:44:58 [INFO] logger.info:65 - 导出操作权限验证: _export_spritesheet
+2026-08-02 11:44:58 [INFO] logger.info:65 - 导出权限验证: 第1次重试
+2026-08-02 11:44:58 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:44:58 [INFO] logger.info:65 - 权限验证: 发起请求, URL=/api/user/get-allow-code, MAC=F8:75:A4:67:EF:D5, Token长度=127
+2026-08-02 11:44:59 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:44:59 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:44:59 [INFO] logger.info:65 - 导出权限验证结果处理: 验证成功，标记为已完成
+2026-08-02 11:44:59 [INFO] logger.info:65 - 权限验证: 请求完成, 状态码=200
+2026-08-02 11:44:59 [INFO] logger.info:65 - 权限验证成功
+2026-08-02 11:44:59 [INFO] logger.info:65 - 导出权限验证结果处理: allow_code匹配成功，授权通过
+2026-08-02 11:44:59 [INFO] logger.info:65 - 权限验证通过，执行导出: _export_spritesheet
+2026-08-02 11:44:59 [INFO] logger.info:65 - 导出精灵图开始: output_dir=C:/Users/Administrator/Desktop/dabing/3, frames_count=50
+2026-08-02 11:44:59 [INFO] logger.info:65 - 导出参数: mode=grid, cols=5, padding_x=2, padding_y=2, border=0, scale_size=None
+2026-08-02 11:45:00 [INFO] logger.info:65 - 导出精灵图成功: output_file=C:/Users/Administrator/Desktop/dabing/3\spritesheet.png
+2026-08-02 11:45:46 [INFO] logger.info:65 - SpriteMaker 正常退出，退出码: 0
+2026-08-02 12:24:24 [INFO] logger.info:65 - ==================================================
+2026-08-02 12:24:24 [INFO] logger.info:65 - SpriteMaker 启动
+2026-08-02 12:24:24 [INFO] logger.info:65 - AuthManager 初始化
+2026-08-02 12:24:28 [INFO] logger.info:65 - SpriteMaker 正常退出，退出码: 0
